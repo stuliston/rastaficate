@@ -5,7 +5,7 @@ Rastafication, for your nation.
 
 This mind-bogglingly awesome, all-powerful jQuery plugin will take any collection of elements and 'rastaficate' them by colouring them green, gold and red in a cyclical fashion.
 
-For a demonstration - please close your eyes and imagine the coolest thing you've ever seen. Failing that, you can always check it out in action at http://stuliston.herokuapp.com.
+For a demonstration - please close your eyes and imagine the coolest thing you've ever seen, multiplied by 10. Alternatively, you can always check it out in action at http://stuliston.herokuapp.com.
 
 Usage:
 
@@ -22,3 +22,12 @@ $(document).ready(function(){
     'red'   : '#F00003'
   });
 });
+
+TODO:
+-----
+
+ - Remove method chainability. If you need more JS API in your app than Rastaficate provides, you're doing it wrong.
+
+Special thanks to our core contributors:
+----------------------------------------
+ - Mark Cipolla
